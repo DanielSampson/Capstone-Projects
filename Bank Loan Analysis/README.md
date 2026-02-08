@@ -48,12 +48,28 @@ A critical component of this analysis was evaluating the **Financial Health** of
 ## 📑 Transactional Details (Details View)
 ![Details Dashboard](Dashbord_Images/Details.PNG)
 
-| Loan Status | Applications | Total Funded Amount | Total Amount Received | Avg Interest Rate | Avg DTI |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **Fully Paid** | 32,145 | $351.4M | $411.6M | 11.64% | 13.17% |
-| **Charged Off** | 5,333 | $65.5M | $37.3M | 13.88% | 14.00% |
-| **Current** | 1,098 | $18.9M | $24.2M | 15.10% | 14.72% |
+## 📄 Transactional Details (Details View)
 
+The **Details View** provides a granular look into the loan portfolio, moving beyond high-level KPIs to show individual loan performance. This view is essential for auditing specific records and understanding the raw data driving the executive metrics.
+
+### **Key Functionalities**
+* **Granular Analysis:** Access to row-level data including Loan IDs, specific purposes, and issue dates.
+* **Comprehensive Filtering:** Multi-select slicers for **State**, **Grade**, and **Loan Status** to isolate specific segments of the portfolio.
+* **Risk Assessment:** Allows for a direct comparison between borrower debt-to-income (DTI) ratios and interest rates.
+
+### **Data Dictionary**
+
+| Column Name | Description |
+| :--- | :--- |
+| **Loan ID** | Unique identifier for each loan application. |
+| **Purpose** | The category of the loan (e.g., Debt Consolidation, Credit Card, Home Improvement). |
+| **Home Ownership** | The housing status of the borrower (Mortgage, Rent, Own). |
+| **Grade / Sub-Grade** | Risk classifications assigned based on the borrower's creditworthiness. |
+| **Issue Date** | The date the loan was officially funded. |
+| **DTI (Debt-to-Income)** | The ratio of a borrower's total monthly debt to their monthly gross income. |
+| **Amount Received** | Total payments collected from the borrower to date. |
+
+---
 ---
 
 ## 🧰 Tools & Technologies
