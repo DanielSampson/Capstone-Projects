@@ -13,7 +13,7 @@ The objective is to deliver **data-driven insights** that empower stakeholders t
 
 ---
 
-## 📈 Executive Summary (Summary View)
+## 📈 Executive Summary 
 ![Summary Dashboard](Dashbord_Images/Summary.PNG)
 
 ### Key Portfolio Metrics
@@ -36,7 +36,7 @@ A critical component of this analysis was evaluating the **Financial Health** of
 
 ---
 
-## 📊 Trends and Distribution (Overview View)
+## 📊 Trends and Distribution 
 ![Overview Dashboard](Dashbord_Images/Overview.PNG)
 
 - **Seasonality:** Consistent growth throughout the year, peaking in **December (4.3K apps)**.
@@ -48,7 +48,7 @@ A critical component of this analysis was evaluating the **Financial Health** of
 ## 📑 Transactional Details (Details View)
 ![Details Dashboard](Dashbord_Images/Details.PNG)
 
-## 📄 Transactional Details (Details View)
+## 📄 Transactional Details 
 
 The **Details View** provides a granular look into the loan portfolio, moving beyond high-level KPIs to show individual loan performance. This view is essential for auditing specific records and understanding the raw data driving the executive metrics.
 
